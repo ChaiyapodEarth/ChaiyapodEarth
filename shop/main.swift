@@ -66,7 +66,6 @@ class User {
     }
     
     func total()  {
-//        tshirtList.map{($0.price)}.reduce(0, +)
         print("\(tshirtList.map{$0.price}.reduce(0, +))")
     }
     
